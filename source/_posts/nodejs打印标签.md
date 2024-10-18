@@ -11,7 +11,7 @@ tags:
 
 公司有需求， 打印一些小票
 1. 直接搜索 **node-printer** 或者 **node-thermal-printer** 都太古老了。
-2. windows <%- link_to('https://answers.microsoft.com/en-us/windows/forum/all/how-do-you-print-via-command-line/25df4963-5072-4def-91d4-39af5e6780bb', '自带的打印命令') %>  不好调试
+2. windows 自带的打印[命令](https://answers.microsoft.com/en-us/windows/forum/all/how-do-you-print-via-command-line/25df4963-5072-4def-91d4-39af5e6780bb) 不好调试
 3. 这里分享下使用 **TSPL指令** 在 **条码打印机** 的一些解决方案
 
 
@@ -27,8 +27,7 @@ PRINT 1,1\r\n
 ```
 
 ### 文档
-https://op
-en.jolimark.com/files/tspl.pdf
+https://open.jolimark.com/files/tspl.pdf
 
 ## 步骤
 
@@ -56,7 +55,7 @@ outEndpoint.transfer(Buffer.from(cmds.join('\r\n')), (err) => {
 });
 ```
 
-3. [选填] windows 需要刷新设备的驱动，可以参考 <%- link_to('https://www.npmjs.com/package/usb', 'usb') %> 的文档
+3. [选填] windows 需要刷新设备的驱动，可以参考 [usb](https://www.npmjs.com/package/usb) 的文档
 {% blockquote %}
 
 On Windows, if you get LIBUSB_ERROR_NOT_SUPPORTED when attempting to open your device, it's possible your device doesn't have a WinUSB driver for libusb to use.
