@@ -99,7 +99,10 @@ ignore:
 theme: landscape
 
 theme_config:
-  logo: /images/r2s.jpg
+  banner: images/r2s.jpg
+  links:
+    github: https://github.com/amanoooo
+    author: https://util.online
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
