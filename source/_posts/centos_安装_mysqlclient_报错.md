@@ -2,7 +2,9 @@
 layout: test
 title: centos 安装 mysqlclient 报错
 date: 2024-09-18 09:38:24
-tags: bug,python
+tags:
+    - bug
+    - python
 ---
 
 
