@@ -34,8 +34,6 @@ clash ./usr/bin/clash
 
 默认的配置文件是 ~/.config/clash 这里， 参考我的
 ```bash
-➜  clash ls
-cache.db  config.yaml  config.yaml.bak  Country.mmdb
 ➜  clash pwd
 /root/.config/clash
 ➜  clash ls
