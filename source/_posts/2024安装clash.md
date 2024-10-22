@@ -39,3 +39,9 @@ clash ./usr/bin/clash
 ➜  clash ls
 cache.db  config.yaml  config.yaml.bak  Country.mmdb
 ```
+
+
+5. 类unix命令行使用
+```bash
+export https_proxy=http://127.0.0.1:7890;export http_proxy=http://127.0.0.1:7890;export all_proxy=socks5://127.0.0.1:7890
+```
