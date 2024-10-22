@@ -40,6 +40,7 @@ sudo systemctl restart docker
 ```
 
 4. Verify that the configuration has been loaded and matches the changes you made, for example:
+
 ```bash
 sudo systemctl show --property=Environment docker
 
