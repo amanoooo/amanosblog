@@ -32,6 +32,7 @@ https://open.jolimark.com/files/tspl.pdf
 ## 步骤
 
 1. 找到设备端口
+
 ```js
 const usb = require('usb');
 
@@ -42,6 +43,7 @@ list.forEach(device => {
 ```
 
 2. 连接设备
+
 ```js
 let device = usb.findByIds(1137, 85)
 console.log('device is ', device);

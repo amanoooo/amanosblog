@@ -12,6 +12,7 @@ https://github.com/Dreamacro/clash 因为晒车牌被抓住了，很多脚本都
 
 ## 方式
 1. 下载 
+
 ```bash
 wget https://archlinux.org/packages/extra/x86_64/clash/download
 mv download clash.tar
@@ -19,6 +20,7 @@ tar -xvf clash.tar
 ```
 
 2. 运行
+
 ```bash
 clash ./usr/bin/clash
 # INFO[0000] Can't find MMDB, start download
@@ -42,6 +44,7 @@ cache.db  config.yaml  config.yaml.bak  Country.mmdb
 
 
 5. 类unix命令行使用
+
 ```bash
 export https_proxy=http://127.0.0.1:7890;export http_proxy=http://127.0.0.1:7890;export all_proxy=socks5://127.0.0.1:7890
 ```
