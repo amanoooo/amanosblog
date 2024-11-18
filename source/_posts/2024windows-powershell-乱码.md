@@ -18,18 +18,24 @@ pause
 ```
 
 ## 解决方案
+
 ### 方案1
+
 1. windows上我通过 **chcp 65001 && npm run start**  可以解决
 
 ### 方案2
+
 1. 参考这个 [文章](https://ganzhixiong.com/p/f1b9f4fc/), 第一步查看powershell 配置位置
+
 ```bash
 ```
 2. 在该配置文件中添加如下配置：
+
 ```bash
 $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 ```
 3. 验证
+
 ```test
 ./test.bat
 ```
