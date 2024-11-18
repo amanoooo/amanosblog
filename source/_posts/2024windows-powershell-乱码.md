@@ -28,18 +28,20 @@ pause
 1. 参考这个 [文章](https://ganzhixiong.com/p/f1b9f4fc/), 第一步查看powershell 配置位置
 
 ```bash
+$PROFILE
 ```
+
 2. 在该配置文件中添加如下配置：
 
 ```bash
 $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 ```
+
 3. 验证
 
 ```test
 ./test.bat
 ```
-
 ![](/images/check_encoding.png)
 
 
