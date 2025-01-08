@@ -29,7 +29,7 @@ and the repository exists.
 ## 解决
 
 1. 第一步安装openssh-client
-![](/images/r2s.jpg)
+![](/images/openssh.png)
 
 
 2. 检查可以发现ssh已经链接到openssh 了
