@@ -2,7 +2,7 @@
 
 set -ex
 
-cd amano/amanosblog
+cd ~/amano/amanosblog
 pwd
 ls
 
