@@ -2,6 +2,9 @@
 title: 2024安装clash
 date: 2024-10-21 16:12:31
 tags: linux
+
+categories: 
+    - 时效性
 ---
 
 

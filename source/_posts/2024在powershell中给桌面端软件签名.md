@@ -2,11 +2,15 @@
 title: 2024在powershell中给桌面端软件签名
 date: 2025-03-03 13:41:52
 tags:
+
+
+categories: 
+    - 时效性
 ---
 
 
 ## 背景
-使用Electron 打的包直接安装会有提醒
+使用Electron 打的包直接安装会有提醒， 网上很多方式是使用cmd 的， 我补充一下powershell的
 ![reason](/images/sign.png)
 
 ## 解决步骤

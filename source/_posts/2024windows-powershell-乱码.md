@@ -2,6 +2,9 @@
 title: 2024windows_powershell_乱码
 date: 2024-11-18 15:02:02
 tags: windows
+
+categories: 
+    - 时效性
 ---
 
 ## 背景 
