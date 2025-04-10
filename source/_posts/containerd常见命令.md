@@ -24,6 +24,9 @@ ctr -n k8s.io images list
 # 拉取获取推送
 ctr -n k8s.io images pull -u username:pass registry.niumag.com/namespace/image:snap
 ctr -n k8s.io images push -u username:pass registry.niumag.com/namespace/image:snap
+
+# 删除
+ctr -n k8s.io images rm registry.niumag.com/namespace/image:snap
 ```
 
 
