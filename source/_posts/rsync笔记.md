@@ -4,6 +4,10 @@ title: rsync笔记
 date: 2025-03-07 13:17:48
 tags:
     - linux
+
+
+categories: 
+    - note
 ---
 
 
