@@ -8,7 +8,7 @@ tags:
 
 
 Today I want to share a tool to buddys, **JDownloader**
-below is it's function,
+below is it's functionalitis
 
 
 ![download video from website p](/images/jdownloader.png)
